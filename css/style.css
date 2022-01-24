@@ -70,11 +70,14 @@ img {
     border-bottom: 2px white solid;
 }
 
+.navbar .icon2 {
+    display: none;
+  }
+
 /* Navbar container */
 .navbar {
     overflow: hidden;
     background-color: var(--primary-color);
-  
   }
   
   /* Links inside the navbar */
@@ -320,16 +323,25 @@ margin-right: 20px;
 
 /* mobile */
 @media(max-width: 400px){
+
+    .logo {
+        width: 100%;
+    }
     .navbar{
-        height: 110px;
+        height: 200px;
     }
 
     .navbar.flex {
         flex-direction: column;
     }
 
-    .navbarul{
+    .navbar ul{
         padding: 10px;
         background-color: rgba(0, 0, 0, 0);
+        
     }
+
+
+  
+
 }
