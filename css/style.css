@@ -17,6 +17,9 @@ body {
     font-family: 'Lato', 'sans-serif';
     color: #333;
     line-height: 1.6;
+
+  
+  
 }
 
 ul {
@@ -229,19 +232,7 @@ margin-right: 20px;
     .logo {
         width: 100%;
     }
-    .navbar{
-        height: 200px;
-    }
-
-    .navbar.flex {
-        flex-direction: column;
-    }
-
-    .navbar ul{
-        padding: 10px;
-        background-color: rgba(0, 0, 0, 0);
-        
-    }
+    
 
     .price-features .container .card {
         grid-column: 1/ span 4;
