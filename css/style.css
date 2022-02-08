@@ -241,7 +241,33 @@ margin-right: 20px;
         grid-column: 1/ span 4;
     }
 
+    /* Fame page */
 
+    .instagram-media {
+        grid-column: 1 / span 2;
+    }
+
+    #fameimg {
+        margin-left: 50px;
+    }
+
+    /* find us page */
+
+    .docs-main .card {
+        grid-column: 1 /span 2;
+    }
+
+    .docs-main .card iframe {
+        width: 100%;
+    }
+
+    #findUsimg {
+        margin-right: 60%;
+    }
+
+    #carimg {
+        margin-right: ;
+    }
   
 
 }
