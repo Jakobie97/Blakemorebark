@@ -230,7 +230,7 @@ margin-right: 20px;
 
 
 /* mobile */
-@media(max-width: 400px){
+@media(max-width: 500px){
 
     .logo {
         width: 100%;
